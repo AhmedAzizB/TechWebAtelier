@@ -15,7 +15,7 @@
     margin-left: 25%;
     margin-right: 25%;
     height: 350px;
-    background-image: url(img/flash_img.png);
+    background-image: url(flash_img.png);
   }
   ul {
     display: table;
@@ -53,7 +53,7 @@
   }
   ul li a:hover {
     background-color: black;
-    background-image: url(img/rings.png);
+    background-image: url(rings.png);
     background-repeat: no-repeat;
     background-position: right;
   }
