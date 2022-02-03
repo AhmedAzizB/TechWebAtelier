@@ -1,0 +1,46 @@
+<head></head>
+<body>
+    <h1 style="text-align: center;">Inscription en licence</h1>
+    <form action="video.html" method="get" name="name form"><fieldset style="align-content: center;">
+        
+       <center><label for="nom" >Votre nom: </label> <input type="text" NAME="nom" SIZE=15 id="nom"
+        MAXLENGTH=30 placeholder="votre nom"> <br>
+        <label for="prenom">Votre prenom: </label> <input type="text" NAME="prenom" SIZE=15 id="prenom"
+        MAXLENGTH=30 placeholder="votre prenom" > <br>
+        <label for="age" >Votre age: </label> <input type="number" NAME="age" SIZE=15 id="age"
+         placeholder="votre age" > <br>
+         <label for="daten" >Votre date de naissance: </label> <input type="date" NAME="daten" SIZE=15 id="daten"
+         placeholder="votre date de  naissance" > <br>
+         <label for="adresse" >Votre adresse: </label> <TEXTAREA NAME="adresse"
+         ROWS=5 COLS=40 placeholder="votre adresse?"></TEXTAREA> <br>
+         <label for="pswrd" >Votre password: </label> <input type="password" NAME="pswrd" SIZE=15 id="pswrd" required
+         > <br>
+         <label for="pswrdr" > repeter Votre password: </label> <input type="password" NAME="pswrdr" SIZE=15 id="pswrd"
+         required> <br>
+         <label for="mail" >Votre email: </label> <input type="email" NAME="mail" SIZE=15 id="mail"
+         placeholder="votre email" > <br>
+         <label for="url" >Votre site: </label> <input type="url" NAME="url" SIZE=15 id="url"
+         placeholder="votre siteweb" > <br></center> 
+    </fieldset>
+    <fieldset style="align-content: center;">
+        <legend style="font-size: 20pt; text-align: center; font-weight: 600;">Gestion des groupes et des options</legend>
+      <center><label for="grp"> Votre group:</label> <INPUT TYPE ="radio" NAME ="grp" ID="Groupe1"
+        VALUE="Groupe1"> Groupe1 <INPUT TYPE ="radio" NAME ="grp" ID="Groupe2"
+        VALUE="Groupe2"> Groupe2 <INPUT TYPE ="radio" NAME ="grp" ID="Groupe3"
+        VALUE="Groupe3"> Groupe3 <br>
+        <label for="text" >Numero de carte d'etudiant: </label> <TEXTAREA NAME="text"
+        ROWS=1 COLS=40 placeholder="Numero de carte d'etudiant" pattern= [I][N][S][A][T][0-9]{4}></TEXTAREA> <br>
+    <label for="option">Choissez lesoption que vous desirez</label><select name="option" id="option"><option value="Android">Android</option><option value="net">Net</option>
+    <option value="HTML5">HTML5</option></select>       </center>  
+    </fieldset>
+    <br><br>
+    <center> <INPUT TYPE="submit" VALUE="Valider" style="align-content: center;">
+        <INPUT TYPE="reset" VALUE="Effacer" style="align-content: center;"></center>
+   
+
+    </form>
+    
+   
+
+   
+</body>

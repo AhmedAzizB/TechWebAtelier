@@ -1,0 +1,89 @@
+.img1 {
+    width: 100%;
+  }
+  .img2 {
+    width: 100px;
+    height: 100px;
+  }
+  .img3 {
+    width: 100%;
+    height:100px;
+  }
+  .div1 {
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 350px;
+    background-image: url(img/flash_img.png);
+  }
+  ul {
+    display: table;
+    width: 100%;
+    height: 20px;
+    margin: 50px auto;
+    padding: 0;
+    font: 1.1em sans-serif;
+  }
+  ul li a {
+    display: block; 
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 8px 17px 8px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); 
+  }
+  ul li {
+    display: table-cell; 
+    background: rgb(165, 42, 42);
+  }
+  nav {
+    margin-bottom: 0px;
+  }
+  .div2 {
+    padding: 0;
+    margin-top: -50px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  ul li a:hover {
+    background-color: black;
+    background-image: url(img/rings.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .div3{
+      margin-right:15px; 
+  }
+  .div4{
+    margin-right:10px;
+  }
+  h2{
+    color:rgba(192, 36, 36,100%)
+  }
+  .container{
+    display:flex;
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:-20px;
+    margin-bottom:40px;
+  }
+  .text-set{
+    font-size:11px;
+  }
+  a{ 
+   font-size:15px;
+    color:rgb(102, 3, 3);
+    text-decoration:none;
+  }
+  .div5{
+    margin-left:14px;
+  }
+  .cubes{
+    margin-left:51%;
+  }
