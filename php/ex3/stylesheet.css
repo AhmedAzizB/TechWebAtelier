@@ -1,0 +1,21 @@
+input {
+    border: none;
+  }
+  textarea {
+    border-style: none;
+    overflow: auto;
+    outline: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  form {
+    border: solid black 2px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .centerbtn {
+    margin: 0 25%;
+  }
